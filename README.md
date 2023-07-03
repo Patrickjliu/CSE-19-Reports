@@ -1,17 +1,29 @@
-# reports-template
+# Project Proposal: Applying Reinforcement Learning Algorithms in Simulated Car Lane Following
 
-A template for using a GitHub repository as your location for weekly reports.
+## Project Description
 
-Please follow the GitHub documentation for [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+The goal of this project is to apply reinforcement learning (RL) algorithms to enable simulated cars to autonomously follow lanes. We will focus primarily on policy gradient (PG) methods, which have shown promise in autonomous driving scenarios. The project aims to explore the use of the proximal policy optimization (PPO) algorithm as a potentially improved PG algorithm.
 
-Here are some additional details:
+## Objectives
 
-- You can name the repository whatever you'd like, but keep in mind that it will only contain your reports.
-- You can make your repository public or private. If you make it private please make sure to give me access.
-- There is only one branch to this repository (so you can ignore the "Include all branches" option).
+- Explore the application of reinforcement learning algorithms in the context of simulated car lane following.
+- Implement and evaluate different policy gradient algorithms, including REINFORCE, Advantage Actor-Critic (A2C), and Proximal Policy Optimization (PPO).
+- Assess the performance, stability, and convergence properties of the implemented algorithms.
+- Compare and analyze the effectiveness of PPO against simpler PG algorithms in simulated car lane following tasks.
+- Provide recommendations and insights for future improvements and research in the field of autonomous driving using reinforcement learning.
 
-Once you have cloned the template, you will want to:
+## Project Tasks
 
-- Replace the contents of this README with your project proposal.
-- Delete the example report (`git rm 2020-09-18-example`).
-- Start creating your own reports, each in its own directory.
+1. **Environment Selection**: Each intern will choose a gym environment, such as Pac-Man, spider walking, and car racing. They will thoroughly explore their selected environment, studying its characteristics, reward structures, and state representations.
+
+2. **Algorithm Implementation**: Interns will implement the selected RL algorithms (REINFORCE, A2C, PPO) in Python. They will design neural network models and train them using the algorithms.
+
+3. **Evaluation and Analysis**: The implemented algorithms will be evaluated based on their performance in the chosen gym environments. Interns will analyze key metrics such as convergence rate, stability, and overall task completion to assess the effectiveness of each algorithm.
+
+4. **Comparison and Discussion**: Interns will compare the performance of PPO against the simpler PG algorithms (REINFORCE, A2C) in terms of training efficiency, stability, and generalization capabilities. They will discuss the advantages and limitations of each algorithm and provide insights into the suitability of PPO for simulated car lane following.
+
+## Conclusion
+
+This project offers an exciting opportunity to explore and apply reinforcement learning algorithms in the context of simulated car lane following. By implementing and evaluating various policy gradient methods, we aim to gain insights into the strengths and limitations of these algorithms in autonomous driving scenarios. The project outcomes will contribute to the growing field of reinforcement learning and pave the way for further research and improvements in the domain of autonomous vehicles.
+
+If you have any questions or suggestions, please feel free to reach out.
